@@ -8,9 +8,11 @@
   ],
   "license": "ISC",
   "author": "Lovepreet",
-  "type": "commonjs",
+  "type": "module",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
